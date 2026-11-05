@@ -13,6 +13,7 @@ public class Columnas {
 		int columnas = scanner.nextInt();
 		System.out.println("Introduce un nº");
 		int numero = scanner.nextInt();
+		scanner.close();
 		//mostramos las columnas
 		for (int i = 1; i <= numero; i++) {
 			System.out.printf("%5d", i);
